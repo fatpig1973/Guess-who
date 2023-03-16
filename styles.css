@@ -1,9 +1,15 @@
 body {
-    color: #df5e13;
+    color: #f0efec;
 }
 .card {
     color: white;
 }
 span {
-    color: red;
+    color: black;
+}
+li {
+    color:black;
+}
+h2 {
+    color:blue
 }
