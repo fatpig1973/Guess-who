@@ -13,3 +13,12 @@ li {
 h2 {
     color:blue
 }
+.header {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: center;
+    align-content: center;
+}
+img {
+    width: 100%;
+}
