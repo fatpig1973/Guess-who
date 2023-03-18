@@ -1,5 +1,5 @@
 body {
-    color: #f0efec;
+    color: #F0EFEC;
 }
 .card {
     color: white;
@@ -34,4 +34,9 @@ img {
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+}
+.mystery {
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
 }
