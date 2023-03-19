@@ -7,6 +7,14 @@ body {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
+}
+.card:hover {
+    transition: .5;
+    padding: 6px;
 }
 span {
     color: black;
@@ -15,7 +23,8 @@ li {
     color:black;
 }
 h2 {
-    color:black
+    color:black;
+    text-align: center;
 }
 .header {
     display: grid;
@@ -49,4 +58,8 @@ img {
 .instructions {
     border: solid white 4px;
     padding: 20px;
+}
+.mystery-card {
+    text-align: center;
+    font-weight: bold;
 }
