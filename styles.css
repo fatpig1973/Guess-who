@@ -64,3 +64,6 @@ img {
     text-align: center;
     font-weight: bold;
 }
+.eliminated {
+    opacity: 20%;
+}
