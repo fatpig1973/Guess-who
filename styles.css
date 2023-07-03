@@ -1,9 +1,9 @@
 body {
-    background-color: #F0EFEC;
     font-family: verdana;
     font-size: 15px;
-
+    background-color: saddlebrown;
 }
+
 .card {
     background-color: white;
     padding: 10px;
@@ -14,17 +14,23 @@ body {
     cursor: pointer;
 }
 .card:hover {
-    transition: .5;
+    transition: 550ms;
     padding: 6px;
+    rotate: 15deg;
+    transform: scale(1.5);
 }
 span {
     color: black;
 }
+
+.one {
+    color: wheat;
+}
 li {
-    color:black;
+    color:wheat;
 }
 h2 {
-    color:black;
+    color:rgb(239, 234, 234);
     text-align: center;
 }
 .header {
@@ -35,6 +41,7 @@ h2 {
 }
 img {
     width: 100%;
+    border-radius: 5%;
 }
 .cards {
     display: grid;
@@ -50,6 +57,8 @@ img {
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+
+    
 }
 .mystery {
     padding: 10px;
