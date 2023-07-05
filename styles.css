@@ -17,7 +17,8 @@ body {
     transition: 550ms;
     padding: 6px;
     rotate: 15deg;
-    transform: scale(1.5);
+    transform: scale(1.05);
+   
 }
 span {
     color: black;
@@ -76,3 +77,4 @@ img {
 .eliminated {
     opacity: 20%;
 }
+
